@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function MainClockExample() {
 const [time,setTime] = useState(new Date())
-const [date,setDate] =useState(new Date("Mar 25 2025"))
+const [date,setDate] =useState(new Date())
 useEffect(()=>{
     const timer =setInterval(()=>{
         setTime(new Date())
